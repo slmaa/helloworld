@@ -14,6 +14,8 @@
 		38E5B1921C36AC4E000DF5C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38E5B1901C36AC4E000DF5C8 /* LaunchScreen.storyboard */; };
 		38E5B19D1C36AC4E000DF5C8 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B19C1C36AC4E000DF5C8 /* HelloWorldTests.swift */; };
 		38E5B1A81C36AC4E000DF5C8 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B1A71C36AC4E000DF5C8 /* HelloWorldUITests.swift */; };
+		38E5B1B61C38482E000DF5C8 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B1B51C38482E000DF5C8 /* File.swift */; };
+		38E5B1B81C384D4F000DF5C8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38E5B1B71C384D4E000DF5C8 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		38E5B1A31C36AC4E000DF5C8 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E5B1A71C36AC4E000DF5C8 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		38E5B1A91C36AC4E000DF5C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38E5B1B51C38482E000DF5C8 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		38E5B1B71C384D4E000DF5C8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		38E5B17B1C36AC4E000DF5C8 = {
 			isa = PBXGroup;
 			children = (
+				38E5B1B71C384D4E000DF5C8 /* Default-568h@2x.png */,
 				38E5B1861C36AC4E000DF5C8 /* HelloWorld */,
 				38E5B19B1C36AC4E000DF5C8 /* HelloWorldTests */,
 				38E5B1A61C36AC4E000DF5C8 /* HelloWorldUITests */,
@@ -112,6 +117,7 @@
 			children = (
 				38E5B19C1C36AC4E000DF5C8 /* HelloWorldTests.swift */,
 				38E5B19E1C36AC4E000DF5C8 /* Info.plist */,
+				38E5B1B51C38482E000DF5C8 /* File.swift */,
 			);
 			path = HelloWorldTests;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E5B1921C36AC4E000DF5C8 /* LaunchScreen.storyboard in Resources */,
+				38E5B1B81C384D4F000DF5C8 /* Default-568h@2x.png in Resources */,
 				38E5B18F1C36AC4E000DF5C8 /* Assets.xcassets in Resources */,
 				38E5B18D1C36AC4E000DF5C8 /* Main.storyboard in Resources */,
 			);
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E5B19D1C36AC4E000DF5C8 /* HelloWorldTests.swift in Sources */,
+				38E5B1B61C38482E000DF5C8 /* File.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
